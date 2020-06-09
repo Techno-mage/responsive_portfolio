@@ -51,6 +51,27 @@ body{
 
 }
 
+/* portfolio elements */
+.project {
+    width:360px;
+    height:360px;
+    padding:15px;
+    
+}
+
+
+
+.project img{
+    width:340px;
+    height:340px;
+}
+
+.project p{
+    width:340px;
+    position: absolute;
+    bottom:5px;
+}
+
 /*footer element*/
 #footer{
     text-align: center;
