@@ -35,11 +35,20 @@ body{
     max-width:720px;
 }
 
-#profile_pic {
+#profile_pic{
     width: 300px;
     height: 400px;
-    float:left; 
-    margin:10px;
+    margin:auto;
+    display: block;
+}
+
+@media only screen and (min-width: 768px) {
+    #profile_pic {
+        float:left; 
+        margin:10px;
+        display:flex;
+    }
+
 }
 
 /*footer element*/
